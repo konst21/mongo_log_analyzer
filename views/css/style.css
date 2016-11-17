@@ -1,0 +1,45 @@
+#plots {
+    width: 740px;
+    height: 210px;
+    margin: 0;
+}
+body {
+    background-color: #333333 !important;
+}
+.image_pul {
+    float: right;
+    padding: 10px;
+}
+
+.image_pul img {
+    height: 24px;
+    cursor: pointer;
+}
+.md {
+    font-weight: bold;
+}
+#legend_pul {
+    float: left;
+    padding: 10px;
+}
+#legend_row td {
+    margin-right: 10px;
+}
+#legend_row td.legendColorBox  {
+    padding-left: 20px;
+}
+.legend_input_min, .legend_input_max {
+    width: 33px;
+    margin-left: 3px;
+}
+.realtime_border {
+    background-color: red;
+}
+.container {
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 740px !important;
+}
+.legend table {
+    border-spacing: 5px;
+}
